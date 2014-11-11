@@ -2,8 +2,8 @@
 /*
 Plugin Name: Square Link
 Plugin URI: http://www.square-link.com/plugin-wordpress
-Description: Ajoutez et gérez vos espaces Square Link facilement et directement dans votre interface Wordpress. Utilisez le widget "Square Link" ou insérez le shortcode suivant [squarelink id="xx"] en remplacant xx par l'identifiant de votre espace.
-Version: 1.0
+Description: Ajoutez et gérez vos emplacements Square Link facilement et directement dans votre interface Wordpress. Rendez-vous dans "Réglages" > "Square Link" pour configurer votre plugin et commencer à ajouter des emplacements..
+Version: 2.0
 Author: Square Link
 Author URI: http://www.square-link.com
 License: GPLv2 or later
