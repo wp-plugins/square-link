@@ -4,7 +4,8 @@ jQuery(function($) {
 
     function squarelink_insert_shortcode() {
     	var id = $('#squarelink_select_space').val(); 
-	    wp.media.editor.insert('[squarelink id="'+id+'"]');
+    	var align = $('#squarelink_select_align').val(); 
+	    wp.media.editor.insert('<div style="text-align:'+align+';">[squarelink id="'+id+'"]</div><p></p>');
 	}
 
 });

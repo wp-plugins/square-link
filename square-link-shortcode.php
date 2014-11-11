@@ -42,6 +42,11 @@ function squarelink_media_buttons_popup() {
             }
         }
         echo '
+    </select>&nbsp;&nbsp;&nbsp;
+    <select id="squarelink_select_align">
+        <option value="left" selected="selected">Aligné à gauche</option>
+        <option value="center">Centré</option>
+        <option value="right">Aligné à droite</option>
     </select>
     <br/><br/>
     <button class="button button-primary button-large">Insérer cet emplacement</button>

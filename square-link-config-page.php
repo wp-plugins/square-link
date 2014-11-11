@@ -52,7 +52,6 @@ $website = $api->getWebsite(get_option('squarelink_setting_siteid'));
                     <th>Nom</th>
                     <th>Taille</th>
                     <th>Type</th>
-                    <th>Animation</th>
                     <th>Identifiant</th>
                 </tr>
             </thead>
@@ -77,21 +76,12 @@ $website = $api->getWebsite(get_option('squarelink_setting_siteid'));
                             <td>$space->name</td>
                             <td>$space->width x $space->height</td>
                             <td>$type</td>
-                            <td>";
-                            if($animation == true) {
-                                echo 'Oui';
-                            } else {
-                                echo 'Non';
-                            }
-                        echo "<td>$space->token</td>
+                            <td>$space->token</td>
                         </tr>";
                     }
                 ?>
             </tbody>
         </table>
         <br/>
-        <h3>Comment ajouter un emplacement ?</h3>
-        <ul>
-            <li>
     <?php } ?>
 </div>
