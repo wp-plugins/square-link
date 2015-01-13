@@ -10,8 +10,11 @@ class squarelink_API {
 
 		$response = $this->getCurlResponse($url);
 
-		if($decode == true) {
-			$response = $this->getJsonDecode($response);
+		if($response != false) {
+
+			if($decode === true) {
+				$response = $this->getJsonDecode($response);
+			}
 			return $response;
 		}
 
@@ -28,8 +31,11 @@ class squarelink_API {
 		
 		$response = $this->getCurlResponse($url);
 
-		if($decode == true) {
-			$response = $this->getJsonDecode($response);
+		if($response != false) {
+
+			if($decode === true) {
+				$response = $this->getJsonDecode($response);
+			}
 			return $response;
 		}
 
@@ -46,7 +52,8 @@ class squarelink_API {
 
 		curl_setopt_array($curl, array(
 		    CURLOPT_RETURNTRANSFER => 1,
-		    CURLOPT_URL => $url
+		    CURLOPT_URL => $url,
+		    CURLOPT_TIMEOUT => 3 //Timeout in seconds
 		));
 
 		$response = curl_exec($curl);
