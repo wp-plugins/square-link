@@ -11,7 +11,7 @@ Ajoutez et gérez facilement vos emplacements publicitaires Square Link sur votr
 
 == Description ==
 
-Grâce au plugin Square Link, vous pouvez insérer et gérer facilement des emplacements sur votre site internet. 
+Grâce au plugin Square Link, vous pouvez insérer et gérer facilement des emplacements publicitaires sur votre site. 
 Pour ajouter un emplacement sur votre site, vous avez plusieurs possibilités :
 
 * Dans un zone dynamique grâce au widget 
@@ -40,18 +40,18 @@ Pour utiliser ce plugin, vous devez être inscrit sur [Square Link](http://www.s
 **Pour utiliser le plugin :**
 
 1. Renseignez l'identifiant de votre site dans l'onglet "Réglages" > "Square Link"., 
-2. Ajoutez un emplacement via les widget en sélectionnant l'emplacement souhaité dans la liste déroulante., 
+2. Ajoutez un emplacement via le widget en sélectionnant l'emplacement souhaité dans la liste déroulante., 
 3. Ajoutez un emplacement dans n'importe quel contenu en cliquant sur le bouton "Ajouter un emplacement Square Link" au dessus de votre zone de contenu.
 
 == Frequently Asked Questions ==
 
 = Comment créer un compte Square Link =
 
-Pour utiliser ce plugin, il est nécessaire d'avoir au préalable un compte Square Link. Pour créer gratuitement votre compte, allez sur la page suivante  : https://app.square-link.com/register/
+Pour utiliser ce plugin, il est nécessaire d'avoir au préalable créé un compte Square Link. Pour créer gratuitement votre compte, allez sur la page suivante  : https://app.square-link.com/register/
 
 = Comment connaître l'identifiant de mon ? =
 
-Vous pouvez retrouver facilement l'identifiant de votre site, rendez-vous sur la page suivante : https://app.square-link.com/publisher/sites (vous devez être connecté à votre compte Square Link)
+Vous pouvez retrouver facilement l'identifiant de votre site. Pour cela, rendez-vous sur la page suivante : https://app.square-link.com/publisher/sites (vous devez être connecté à votre compte Square Link)
 
 == Screenshots ==
 
@@ -63,7 +63,7 @@ Vous pouvez retrouver facilement l'identifiant de votre site, rendez-vous sur la
 == Changelog ==
 
 = 2.1 =
-* Ajout de screenshots, modifications de la présentation du plugin
+* Ajout de screenshots, modification de la présentation du plugin
 
 = 2.0 =
 * Modification du système de configuration (un identifiant par site et plus par emplacement)
