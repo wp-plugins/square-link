@@ -3,7 +3,7 @@
 Plugin Name: Square Link
 Plugin URI: http://www.square-link.com/plugin-wordpress
 Description: Ajoutez et gérez vos emplacements publicitaires Square Link directement dans votre interface Wordpress. Rendez-vous dans "Réglages" > "Square Link" pour configurer votre plugin et commencer à ajouter des emplacements.
-Version: 2.1
+Version: 2.2
 Author: Square Link
 Author URI: http://www.square-link.com
 License: GPLv2 or later
