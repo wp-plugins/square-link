@@ -23,24 +23,13 @@ class squarelink_API {
 
 	public function getSpace($token,$format = 'json',$decode = true)
 	{
-		if($_GET["squarelink_preview"] == $token) {
-			$url = '/spaces/'.$token.'/preview.'.$format;
-		} else {
-			$url = '/spaces/'.$token.'.'.$format;
-		}
-		
-		$response = $this->getCurlResponse($url);
-
-		if($response != false) {
-
-			if($decode === true) {
-				$response = $this->getJsonDecode($response);
-			}
-			return $response;
+		if($token != NULL) {
+			$response = '<!-- Mobile footer fixe (300x50) squarelink_a070ead516b01a6690fadf5404ae2e0a -->
+			<script>var squarelink_id = "'.$token.'";</script>
+			<script type="text/javascript" src="//app.square-link.com/script.js"></script>';
 		}
 
-		return null;
-		
+		return $response;
 	}
 
 	private function getCurlResponse($url) 

@@ -9,9 +9,7 @@ add_action('wp_enqueue_media', 'squarelink_scripts');
 function squarelink_shortcode( $atts ) {
     
     $api = new squarelink_API();
-    $space = $api->getSpace($atts['id']);
-
-    $display = $space->display;
+    $display = $api->getSpace($atts['id']);
 
 	return $display;
 }

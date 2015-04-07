@@ -14,7 +14,7 @@ Ajoutez et gérez facilement vos emplacements publicitaires Square Link sur votr
 Grâce au plugin Square Link, vous pouvez insérer et gérer facilement des emplacements publicitaires sur votre site. 
 Pour ajouter un emplacement sur votre site, vous avez plusieurs possibilités :
 
-* Dans un zone dynamique grâce au widget 
+* Dans un widget
 * Dans n'importe quel contenu (pages, article, ...) grâce au bouton disponible dans le WYSIWYG
 
 Aucune connaissance technique n'est requise pour installer les emplacements sur votre site. Renseignez simplement l'identifiant Square Link de votre site dans le menu "Réglages" > "Square Link" de votre interface d'administration. Pour connaître l'identifiant de votre site, rendez-vous sur la [page d'installation de vos site](https://app.square-link.com/publisher/sites "page d'installation de vos site")
@@ -61,6 +61,9 @@ Vous pouvez retrouver facilement l'identifiant de votre site. Pour cela, rendez-
 4. Widget en glisser-déposer avec une liste déroulante
 
 == Changelog ==
+
+= 2.2 =
+* Intégration du nouveau code d'appel des publicités
 
 = 2.1 =
 * Ajout de screenshots, modification de la présentation du plugin

@@ -14,9 +14,7 @@ class squarelink_space_widget extends WP_Widget
     public function widget($args, $instance)
 	{
 		$api = new squarelink_API();
-		$space = $api->getSpace($instance['ad_slot']);
-
-		$display = $space->display;
+		$display = $api->getSpace($instance['ad_slot']);
 
 	    echo $args['before_widget'];
 	    echo $args['before_title'];
